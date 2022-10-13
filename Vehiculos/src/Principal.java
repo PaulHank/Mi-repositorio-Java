@@ -6,9 +6,7 @@ public class Principal {
 	public static void main(String[] args) {
 		HashMap<String, Vehiculos> vehiculos = new HashMap<String, Vehiculos>();
 		
-		while (true)
-		menu();
-		
+		menu();	
 		int opcion = read();
 		switch (opcion) {
 		case 1:
